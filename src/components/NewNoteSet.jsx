@@ -6,6 +6,8 @@ TODO *CreateCard.createCard* add logic to return parent id
 
 
 */
+
+
 const CreateCard = ({ noteCard }) => {
 	const { name, path, text, id } = noteCard;
 	console.log({ name, path, text, id });
@@ -13,7 +15,9 @@ const CreateCard = ({ noteCard }) => {
 		// TODO
 	};
 
-	const deleteCard = (id) => {};
+	const deleteCard = (id) => {
+		// TODO
+	};
 
 	// {createCard, deleteCard, id}
 	return (
@@ -22,8 +26,11 @@ const CreateCard = ({ noteCard }) => {
 				<div>
 					<input type="text" placeholder="name" id="name" />
 				</div>
-				<div>
-					<input type="text" placeholder="text" id="text" />
+				<div contentEditable="true" onInput={(text) => {
+					console.log(text)
+				}}>someText
+					{/* <textarea placeholder="text" id="text"/> */}
+					{/* <input type="text" placeholder="text" id="text" /> */}
 				</div>
 				<div>
 					<button onClick={createCard(id)}>New</button>
