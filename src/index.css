@@ -1,101 +1,101 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-    margin: 0;
+	margin: 0;
 }
 
 #nav {
-    background: #3C6E71; 
-    color: #353535;
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    gap: 2rem;
-    padding: 0 1rem;
+	background: #3c6e71;
+	color: #353535;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	gap: 2rem;
+	padding: 0 1rem;
 }
 
 #nav ul {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    gap: 1rem;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: flex;
+	gap: 1rem;
 }
 
 #nav a {
-    color: inherit;
-    text-decoration: none;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: .25rem;
+	color: inherit;
+	text-decoration: none;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding: 0.25rem;
 }
 
 #nav li:hover {
-    background-color: #547387;
+	background-color: #547387;
 }
 
 #nav li.active {
-    background-color: #284B63;
+	background-color: #284b63;
 }
 
 #noteCard {
-    background-color: #fff;
-    color: #333;
-    border-style: solid;
-    border-radius: 15px;
-    border-color: black;
-    width: 300px;
-    padding: 20px 20px 20px 20px;
-    margin: 20px 20px 20px 20px;
-    position: relative;
+	background-color: #fff;
+	color: #333;
+	border-style: solid;
+	border-radius: 15px;
+	border-color: black;
+	width: 300px;
+	padding: 20px 20px 20px 20px;
+	margin: 20px 20px 20px 20px;
+	position: relative;
 }
 
 #cardName {
-    font-size: 20px;
-    margin: 0px 0px 10px;
+	font-size: 20px;
+	margin: 0px 0px 10px;
 }
 
 #cardPath {
-    font-size: 12px;
-    margin: 0px 0px 20px;
+	font-size: 12px;
+	margin: 0px 0px 20px;
 }
 
 #cardText {
-    overflow: hidden;
+	overflow: hidden;
 	width: 100%;
 	resize: none;
 }
 
 #cardListBody {
-    height: 100%;
-    width: 100%;
-    border-style: solid;
+	height: 100%;
+	width: 100%;
+	border-style: solid;
 }
 
 #noteHeader {
-    background: #CADBC0;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    padding: 0.2rem calc((100vw - 1000px) / 2);
-    margin: 0;
-    border: none
+	background: #cadbc0;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.2rem calc((100vw - 1000px) / 2);
+	margin: 0;
+	border: none;
 }
 
 #newNoteButton {
-    height: 25px;
-    margin-top: 23px;
-    position: absolute;
+	height: 25px;
+	margin-top: 23px;
+	position: absolute;
 }
 
 #notesHeader {
-    height: 18px;
-    margin: 0px;
+	height: 18px;
+	margin: 0px;
 }
 
 #submitButton {
-    display: none;
+	display: none;
 }
